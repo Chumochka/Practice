@@ -46,7 +46,7 @@ public class newcin extends AppCompatActivity {
         protected Void doInBackground(String... params) {
             HttpURLConnection myConnection=null;
             try {//ip меняется в зависимости ip компьютера-сервера
-                URL githubEndpoint = new URL("http://192.168.0.104:8080/bd/");
+                URL githubEndpoint = new URL("http://192.168.187.55:8080/bd/");
                 myConnection = (HttpURLConnection) githubEndpoint.openConnection();
             } catch (MalformedURLException e) {
                 e.printStackTrace();

@@ -65,7 +65,7 @@ public class newfilm extends AppCompatActivity {
             String total = null;
             HttpURLConnection myConnection=null;
             try {//ip меняется в зависимости ip компьютера-сервера
-                URL githubEndpoint = new URL("http://192.168.0.104:8080/bd/");
+                URL githubEndpoint = new URL("http://192.168.187.55:8080/bd/");
                 myConnection =
                         (HttpURLConnection) githubEndpoint.openConnection();
             } catch (MalformedURLException e) {
@@ -129,7 +129,7 @@ public class newfilm extends AppCompatActivity {
             String total = null;
             HttpURLConnection myConnection=null;
             try {//ip меняется в зависимости ip компьютера-сервера
-                URL githubEndpoint = new URL("http://192.168.0.104:8080/bd/");
+                URL githubEndpoint = new URL("http://192.168.187.55:8080/bd/");
                 myConnection =
                         (HttpURLConnection) githubEndpoint.openConnection();
             } catch (MalformedURLException e) {
@@ -209,7 +209,7 @@ public class newfilm extends AppCompatActivity {
             ArrayList<String[]> res = new ArrayList<>();
             HttpURLConnection myConnection = null;
             try {//ip меняется в зависимости ip компьютера-сервера
-                URL githubEndpoint = new URL("http://192.168.0.104:8080/bd?ID=3");
+                URL githubEndpoint = new URL("http://192.168.187.55:8080/bd?ID=3");
                 myConnection =
                         (HttpURLConnection) githubEndpoint.openConnection();
             } catch (MalformedURLException e) {

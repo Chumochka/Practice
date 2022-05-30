@@ -50,7 +50,7 @@ public class firstzap extends AppCompatActivity {
             ArrayList<String[]> res=new ArrayList <>();
             HttpURLConnection myConnection = null;
             try {//ip меняется в зависимости ip компьютера-сервера
-                URL mySite = new URL("http://192.168.0.104:8080/bd?ID=1&Name="+params[0]);
+                URL mySite = new URL("http://192.168.187.55:8080/bd?ID=1&Name="+params[0]);
                 myConnection = (HttpURLConnection) mySite.openConnection();
             } catch (MalformedURLException e) {
                 e.printStackTrace();
